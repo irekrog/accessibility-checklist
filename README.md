@@ -1,5 +1,7 @@
 # Accessibility Checklist
 
+**English** | [Polski](README.pl.md)
+
 A practical checklist for building accessible websites, mapped to **[WCAG 2.2](https://www.w3.org/TR/WCAG22/)** success criteria (W3C Recommendation).
 
 Level **AA** is the usual target: it is what the European Accessibility Act (EN 301 549), Section 508, the ADA case law and most national laws point to.
