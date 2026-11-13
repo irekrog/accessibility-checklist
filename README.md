@@ -55,6 +55,7 @@ Level **AA** is the usual target: it is what the European Accessibility Act (EN 
 **Use semantic HTML for content and behavior**
 * Examples:
   * Actions use `<button>`, navigation uses `<a href>`. Never `<div onclick>`.
+  * "Back to top" is in-page navigation, so use a link: `<a href="#top">Back to top</a>` (or `href="#main"`). It works without JavaScript and moves focus to the target, so keyboard users continue from there. Point it at a real element (e.g. `<header id="top">`) so the target is explicit.
   * Table data goes in `<table>` with `<th scope>` and a `<caption>`. Don't use tables for layout.
   * Lists use `<ul>` / `<ol>` + `<li>`, and `<dl>` for term–description pairs.
   * Dates use `<time datetime="2026-11-13">`.

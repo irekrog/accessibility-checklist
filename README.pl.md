@@ -57,6 +57,7 @@ Zwykle celem jest poziom **AA**: do niego odwołują się Europejski Akt o Dost�
 **Używaj semantycznego HTML do treści i zachowań**
 * Przykłady:
   * Akcje to `<button>`, nawigacja to `<a href>`. Nigdy `<div onclick>`.
+  * „Wróć na górę” to nawigacja w obrębie strony, więc użyj linku: `<a href="#top">Wróć na górę</a>` (lub `href="#main"`). Działa bez JavaScriptu i przenosi fokus do celu, więc użytkownik klawiatury kontynuuje od tego miejsca. Wskaż konkretny element (np. `<header id="top">`), żeby cel był jednoznaczny.
   * Dane tabelaryczne umieszczaj w `<table>` z `<th scope>` i `<caption>`. Nie używaj tabel do układu strony.
   * Listy to `<ul>` / `<ol>` + `<li>`, a pary termin–opis to `<dl>`.
   * Daty umieszczaj w `<time datetime="2026-11-13">`.
